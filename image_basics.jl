@@ -44,7 +44,7 @@ md"""
 """
 
 # ╔═╡ d0d44648-0959-47aa-8553-e2c10e6dc948
-rem = load("/home/gabriel/Downloads/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f (1).png")
+rem = load("rem.png")
 
 # ╔═╡ b4eae467-df6e-4d2a-8c40-2f1ed997fcd9
 @bind range_rows RangeSlider(1:size(rem)[1])
